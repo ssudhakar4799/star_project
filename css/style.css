@@ -1,0 +1,374 @@
+.heder-contents {
+    background-color: #74c69d;
+}
+
+.header-sec {
+    justify-content: space-between;
+}
+
+.nav-list .nav-items {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-lists .nav-items{
+    text-align: center;
+    padding-top: 15px;
+    list-style: none;
+}
+
+/* mobile-nav */
+
+/* banner-sections */
+
+
+.banner-sec{
+    background-color: #74C69D;
+}
+.banner-sec .container{
+    padding: 50px 0;
+}
+.banner-sec .row{
+    align-items: center;
+}
+.banner-sec .col{
+    width: 50%;
+    padding: 20px;
+}
+.banner-content, .banner-img{
+    width: 100%;
+}
+.banner-content{
+    padding: 20px;
+}
+.banner-img img{ 
+    width: 100%;
+}
+.banner-content h6{
+    font-family: "Work Sans", sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.banner-content h1{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.banner-content p{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+}
+.banner-content button{
+    background-color: #FFFFFF;
+    border: none;
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+}
+.banners-content button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+/* team */
+.team-secs{
+    text-align: center;
+    padding-top: 50px ;
+}
+.card-secs{
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    padding-top: 20px;
+    /* flex-wrap: wrap; */
+}
+.card-cols{
+    width: 25%;
+}
+.cards{
+    border: 1px solid #c4c6c9;
+    box-shadow: 5px 5px 10px #a6a7a8;
+    display: flex;
+    align-items: center;
+    flex-direction: column  ;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+.team-names,.team-positions{
+    align-self: flex-start;
+}
+.team-names{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.team-positions{
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #aaadaf;
+}
+.team-imgs{
+    border: 1px solid #212529;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.team-imgs img{
+    border-radius: 50%;
+    height: 100%;
+}
+/* .logo-image{
+    margin-top: -40px;
+} */
+
+
+/*----------------------------------
+Service page  -------------------------*/
+.ser_cards li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ser_cards li i{
+    color: #42f142;
+    font-size: 1.5rem;
+}
+.ser_cards li span{
+    /* font-family: "Work Sans", sans-serif; */
+    font-weight: 400;
+}
+.head_ser .top_head{
+    margin-bottom: 0 !important;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+}
+.head_ser .wt_ser{
+    /* font-family: "Work Sans", sans-serif; */
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.head_ser .lt_ser{
+    /* font-family: "Work Sans", sans-serif; */
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--txt-color-secondary);
+}
+.head_ser .ser_card_content{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--txt-color-secondary);
+}
+ 
+.black_btn {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+    padding: 0.85em 1.345em;
+    font-weight: 400;
+    border-radius: 5px;
+    margin: auto;
+    letter-spacing: 2px;
+    cursor: pointer;
+    max-width: 10rem;
+  }
+.clr-white {
+    color: white;
+  }
+  .classy {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+ 
+  .classy:hover {
+    color: #fff;
+    background-color: #000;
+  }
+  .ser_card_body{
+    width: 29%;
+}
+.cards{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 32px 4px;
+}
+.ser_cards li{
+    list-style: none;
+}
+
+/* portfolio */
+.partners-content{
+    text-align: center;
+}
+ 
+.contact-sec{
+    text-align: center;
+}
+ 
+.input-field{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+}
+.input-field input{
+    width: 100%;
+    border: 1px solid #212529;
+    border-radius: 5px;
+    height: 40px;
+    background-color:#EEEEEE;
+}
+.message-box{
+    height: 75px !important;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.submit-btn{
+    border: none;
+    background-color: #212529;
+    color: #FFFFFF;
+    height: 45px;
+    border-radius:5px ;
+}
+/* services */
+
+
+
+
+/* footer-scetion */
+footer{
+    background-color: #74c69d;
+    padding: 50px 0;
+}
+
+.social-items{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+.social-items a{
+    color: #fff;
+    font-size: 20px;
+}
+.contact-col{
+    width: 50%;
+}
+.contact-row{
+    flex-wrap: wrap;
+}
+/* portfolio sections */
+
+@media screen and (max-width:568px) {
+    .banner-cnt{
+        order: 2;
+    }
+    .card-secs{
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .card-cols{
+        width: 80%;
+    }
+    /*  */
+    .contact-row{
+        flex-wrap: wrap;
+    }
+    .contact-col{
+        width: 95%;
+    }
+    .contact-col-1{
+        width: 300px;
+    }
+    .contact-col-1 iframe{
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (min-width:500px) and (max-width:767px) {
+    .contact-col-1{
+        width: 500px;
+    }
+    .contact-col-1 iframe{
+        max-width: 100%;
+    }
+    .contact-col{
+        width: 95%;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+
+    .banner-content{
+        width: 90%;
+        order: 2;
+    }
+    .banner-img{
+        order: 1;
+    }
+    .part_subhead {
+        width: 100%;
+    }
+    .social_iocns {
+        width: 60%;
+    }
+
+    /* portfolio-partners */
+    .partners-content h4{
+        font-size: 20px;
+    }
+    .partners-content h2{
+        font-size: 15px;
+        margin: 0;
+    }
+    .partners-content{
+        font-size: 12px;
+    }
+
+    .btn-secondary {
+        width: 50%;
+    }
+    .ser_card_body {
+        width: 95%;
+        margin: auto;
+    }
+    .black_btn{
+        font-size: 14px;
+    }
+    .footer-contents{
+        display: block !important;
+        text-align: center !important;
+    }
+    .copyrights{
+        padding-top: 20px;
+    }
+}

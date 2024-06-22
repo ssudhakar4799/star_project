@@ -1,0 +1,138 @@
+:root{
+    --primary-color:#fff;
+    --secondary-color:#212529;
+    --white-color:#fff;
+}
+/*
+Basic style setups
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    letter-spacing: 0.5px;
+}
+
+body {
+    line-height:1;
+   font-family: 'Roboto', sans-serif;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+p{
+    color: #999999;
+    line-height: 30px;
+}
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* --- Head tags --- */
+h1, h2, h3, h4, h5, h6{
+    margin: 0 0 25px;  
+    padding: 0; 
+    line-height: 64px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    color: #000000;
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 700;
+}
+h2{
+    color: #0b0a0a;
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 700;
+}
+h5{
+    color: #fff;
+}
+h4{
+    color: #74c69d;
+}
+h2{font-size: 32px;line-height: 44px;}
+h3{font-size: 22px;line-height: 25px;margin: 0 0 8px;}
+h4{font-size: 18px;line-height: 25px;font-weight: 600; margin: 0 0 8px;}
+h5{font-size: 16px;line-height: 25px;margin: 0 0 8px;font-weight: 600;}
+h6{font-size: 14px;line-height: 25px;margin: 0 0 8px;font-weight: 500;}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+/*----------------------------------
+Buttons ----------------------------*/
+.btn{
+    padding: 8px 60px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-color: var(--primary-color);
+}
+.btn-primary:focus{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-color: var(--primary-color);
+   box-shadow:0 0 0 0.25rem rgb(255 174 78);
+}
+.btn-primary:hover{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-secondary{
+    background-color: var(--secondary-color);
+    color: var(--primary-color );
+    border-color: var(--primary-color);
+    width: 20%;
+}
